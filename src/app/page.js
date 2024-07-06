@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, Suspense } from "react";
 import Search from "@/components/Search";
 import { useSearchParams } from "next/navigation";
 import { getAllCountriesByRegion } from "@/utils/fetchCountries";
