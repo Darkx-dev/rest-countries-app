@@ -26,7 +26,7 @@ const Country = ({ params }) => {
 
   if (country) {
     return (
-      <main className="flex min-h-[calc(100vh-96px)] flex-col items-start px-24 pt-20 dark:bg-darkblue-2 max-md:px-4">
+      <main className="flex min-h-[calc(100vh-96px)] flex-col items-start px-24 pt-20 max-md:pt-10 dark:bg-darkblue-2 max-md:px-4">
         <button
           className="flex items-center gap-2 rounded-md px-8 py-2 shadow-lg dark:bg-darkblue-1"
           onClick={() => router.back()}
@@ -50,7 +50,7 @@ const Country = ({ params }) => {
           <span>Back</span>
         </button>
         {country && (
-          <div className="mt-20 flex h-full w-full items-center gap-28 max-lg:flex-col max-md:gap-5">
+          <div className="mt-20 max-md:mt-10 flex h-full w-full items-center gap-28 max-lg:flex-col max-md:gap-5">
             <div className="lg:w-1/2" id="flag">
               <Image
                 src={country.flags.svg}
