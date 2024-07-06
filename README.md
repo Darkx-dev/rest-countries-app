@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Darkx-dev/job-listing-app](https://github.com/Darkx-dev/job-listing-app)
-- Live Site URL: [https://darkx-dev.github.io/job-listing-app](https://darkx-dev.github.io/job-listing-app)
+- Solution URL: [https://github.com/Darkx-dev/rest-countries-app](https://github.com/Darkx-dev/rest-countries-app)
+- Live Site URL: [https://duniya-dekho-dev.vercel.app/](https://duniya-dekho-dev.vercel.app/)
 
 ## My process
 
