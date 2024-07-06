@@ -2,7 +2,6 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
 import Header from "@/components/Header";
-import { Suspense } from "react";
 
 export const metadata = {
   title: "Frontend Mentor | REST countries",
@@ -12,7 +11,7 @@ export const metadata = {
 const nunito_sans = Nunito_Sans({
   subsets: ["latin"],
   weight: ["300", "600", "800"],
-  adjustFontFallback: false,
+  adjustFontFallback: false
 });
 
 export default function RootLayout({ children }) {
@@ -21,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={nunito_sans.className}>
         <Providers>
           <Header />
-          <Suspense>{children}</Suspense>
+          {children}
         </Providers>
       </body>
     </html>
